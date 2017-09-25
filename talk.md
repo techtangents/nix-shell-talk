@@ -34,7 +34,10 @@ xmlstarlet sel -t -c '//auth-constraint' /src/war/WEB-INF/web.xml 2>/dev/null
 - Shell scripting on steroids!
 - Specify dependencies and interpreter.
 
-- Example: turtle
+- Example: fusebox
+- Example: bash - slides 
+- Example: haskell turtle
+- Example: nodejs - oh noes!
 
 # shell.nix
 
