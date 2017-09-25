@@ -44,21 +44,15 @@ nix-shell -p haskellPackages.patat --command "patat talk.md"
 - Specify dependencies and interpreter.
 
 - Example: bash - slides 
+- Example: fusebox nugget
 - Example: haskell turtle
 - Example: nodejs - oh noes!
 
-
-# Example: xmlstarlet
-
-```
-cd ~/src/ephox/textboxioforwcm
-nix-shell -p xmlstarlet
-xmlstarlet fo ./src/war/WEB-INF/web.xml
-xmlstarlet sel -t -c '//auth-constraint' ./src/war/WEB-INF/web.xml 2>/dev/null
-
-```
-
-
 # shell.nix
 
-Example: running slides.
+Project dependencies + shell.
+
+- Example: running slides.
+- Example: fusebox
+- Example: Textbox.io for WCM
+
